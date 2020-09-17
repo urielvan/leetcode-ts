@@ -9,7 +9,7 @@ module.exports = {
     '.eslintrc.js',
   ],
   extends: [
-    'airbnb',
+    'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
@@ -31,6 +31,7 @@ module.exports = {
     'no-shadow': 'off',
     'no-use-before-define': 'off',
     'no-void': 'off',
+    'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
