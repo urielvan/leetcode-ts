@@ -28,6 +28,7 @@ module.exports = {
     'max-classes-per-file': 'off',
     'no-console': 'off',
     'no-param-reassign': 'off',
+    'no-plusplus': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
     'no-void': 'off',
