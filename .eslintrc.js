@@ -23,6 +23,13 @@ module.exports = {
       jsx: true,
     },
   },
+  settings: {
+    'import/resolver': {
+      typescript: {
+        project: './tsconfig.json',
+      },
+    },
+  },
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     'max-classes-per-file': 'off',
@@ -34,6 +41,17 @@ module.exports = {
     'no-useless-constructor': 'off',
     'no-void': 'off',
     'import/prefer-default-export': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        mjs: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      }
+    ],
     '@typescript-eslint/no-use-before-define': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
