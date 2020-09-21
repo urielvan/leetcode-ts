@@ -31,6 +31,7 @@ module.exports = {
     'no-plusplus': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
+    'no-useless-constructor': 'off',
     'no-void': 'off',
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': 'error',
@@ -41,5 +42,6 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
+    '@typescript-eslint/no-useless-constructor': 'error',
   },
 };
