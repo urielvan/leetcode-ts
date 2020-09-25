@@ -34,6 +34,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'max-classes-per-file': 'off',
     'no-console': 'off',
+    'no-continue': 'off',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
     'no-shadow': 'off',
